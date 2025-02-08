@@ -1,6 +1,7 @@
 # Project-VII-Continuous-Integration-with-Jenkins-Nexus-SonarQube-Slack
 
 * About The Project
+  
  This project demonstrates how to automate Continuous Integration (CI) using Jenkins, Nexus, SonarQube, and Slack. Automating the CI pipeline ensures faster code integration, immediate feedback, and streamlined deployment processes.
 
 * Introduction
