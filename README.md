@@ -12,11 +12,11 @@
   
    Developers make frequent code changes in an Agile Software Development Lifecycle (SDLC). These changes need to be built and tested regularly. Without automation:
    
-  - Builds are manual, increasing error rates.
+   - Builds are manual, increasing error rates.
   
-  - Delayed testing accumulates bugs, leading to developer rework.
+   - Delayed testing accumulates bugs, leading to developer rework.
   
-  - Inter-team dependencies slow down the integration process.
+   - Inter-team dependencies slow down the integration process.
 
 * Problem Statement
 1- Frequent Code Changes: Agile environments lead to regular commits.
