@@ -1,14 +1,14 @@
 # Project-VII-Continuous-Integration-with-Jenkins-Nexus-SonarQube-Slack
 
-* About The Project
+    1:) About The Project
   
    This project demonstrates how to automate Continuous Integration (CI) using Jenkins, Nexus, SonarQube, and Slack. Automating the CI pipeline ensures faster code integration, immediate feedback, and streamlined deployment processes.
 
-* Introduction
+    2:) Introduction
   
    In an Agile Software Development Life Cycle (SDLC), developers frequently commit changes to the codebase. However, undetected bugs accumulate without automated testing and build verification, leading to rework and delays. Traditionally, build and release teams manage this process manually, introducing inefficiencies and inter-team dependencies.
 
-* Scenario
+     3:) Scenario
   
    Developers make frequent code changes in an Agile Software Development Lifecycle (SDLC). These changes need to be built and tested regularly. Without automation:
    
@@ -18,7 +18,7 @@
    
    - Inter-team dependencies slow down the integration process.
 
-* Problem Statement
+     4:) Problem Statement
   
   1- Frequent Code Changes: Agile environments lead to regular commits.
   
@@ -28,7 +28,7 @@
   
   4- Inter-Team Dependencies: Relying on different teams causes delays.
   
-* Solution
+      5:) Solution
   
    ✅ Automated Build & Test for every commit
   
@@ -40,7 +40,7 @@
   
    ✅ Artifact Management through Nexus
 
-* Benefits
+     6:) Benefits
   
    - Fault Isolation: Quickly identify and fix defects.
   
@@ -50,7 +50,7 @@
    
    - Reduced Disruptions: A continuous feedback loop ensures stable releases.
   
-* Objective
+     7:) Objective
   
   🎯 Fault Isolation: Quickly identify faulty code
   
@@ -60,18 +60,19 @@
   
   🎯 Minimize Disruption: Ensure stable and consistent releases.
 
-* Architecture of Project Services
+    8:) Architecture of Project Services
   
-  AWS EC2: Hosts Jenkins, Nexus, and SonarQube.
+  🔹 AWS EC2: Hosts Jenkins, Nexus, and SonarQube.
   
-  Jenkins: Orchestrates the pipeline.
+  🔹 Jenkins: Orchestrates the pipeline.
   
-  GitHub: Source code management and triggering builds.
+  🔹 GitHub: Source code management and triggering builds.
   
-  Maven: Handles building the project.
+  🔹 Maven: Handles building the project.
   
-  Checkstyle & SonarQube: Analyze code quality.
+  🔹 Checkstyle & SonarQube: Analyze code quality.
   
-  Slack: Notifies the team of build outcomes.
+  🔹 Slack: Notifies the team of build outcomes.
   
-  Nexus: Stores built artifacts.
+  🔹 Nexus: Stores built artifacts.
+
