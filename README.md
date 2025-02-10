@@ -76,3 +76,30 @@
   
   🔹 Nexus: Stores built artifacts.
 
+    9:) Flow of Execution
+    
+1. Login to AWS Account: 
+   - Prepare the environment.
+  
+2. Create a Key Pair & Security Group: 
+   - Secure access to instances.
+  
+3. Create EC2 Instances with Userdata: 
+   - Automate the Jenkins, Nexus, and SonarQube setup.
+  
+4. Post Installation Setup:
+   - Configure Jenkins and install necessary plugins.
+   - Set up Nexus and SonarQube.
+   - Test SonarQube login and connectivity.
+  
+5. GitHub Integration:
+   - Create a GitHub repository & push the code.
+   - Set up a GitHub webhook to trigger Jenkins jobs on commits.
+
+6. Build Stage: Compile with Maven and integrate with Nexus.
+
+7. Code Quality Analysis Stage: Run Checkstyle and SonarQube analysis.
+
+8. Artifact Upload Stage: Store artifacts in Nexus.
+
+9. Notification Stage: Send build status to Slack.
