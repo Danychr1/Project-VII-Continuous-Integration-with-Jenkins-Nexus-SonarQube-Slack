@@ -103,3 +103,5 @@
 8. Artifact Upload Stage: Store artifacts in Nexus.
 
 9. Notification Stage: Send build status to Slack.
+
+Author 👨🏽‍💻: Dany Christel
